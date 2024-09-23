@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './Header.css';
 
 function App() {
   return (
     <div className="App">
-      <span>⭐Cine Bingelols🍿</span>
+      <Header />
     </div>
     
   );
