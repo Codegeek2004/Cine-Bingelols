@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-  margin: 0;
+  margin: 0; /* Remove default browser margin */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; /* Use a safe system font fallback */
+  -webkit-font-smoothing: antialiased; /* Smooth fonts for better visuals */
+  -moz-osx-font-smoothing: grayscale; /* Smooth fonts on macOS */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace; /* Monospace font for code elements */
 }
