@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
 
 .header {
   /* Box Model */
@@ -15,7 +15,7 @@
   z-index: 100; /* Ensures header is on top */
 
   /* Typography */
-  font-family: 'Barrio', cursive; /* Apply Barrio font */
+  font-family: 'Agu Display', cursive; /* Apply Agu Display font */
   font-size: clamp(30px, 6vw, 65px); /* Responsive font size */
   color: #FFFFFF; /* White font color */
   text-align: center;
@@ -30,8 +30,12 @@
 }
 
 @media screen and (max-width: 700px) {
+  .header {
+    padding-top: 15px; /* Adjust padding for smaller screens */
+    font-size: 5.5vw; /* Adjust font size for small screens */
+  }
+
   .app {
     padding-top: 70px; /* Adjust padding for smaller screens */
   }
 }
-
