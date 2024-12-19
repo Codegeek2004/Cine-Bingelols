@@ -10,7 +10,16 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box sx={{ width: '100%', position: 'fixed', bottom: 0, zIndex: 100 }}>
+    <Box
+      sx={{
+        width: '100%',
+        position: 'fixed',
+        bottom: 0,
+        zIndex: 100,
+        background: 'linear-gradient(180deg, #B22222, #8B0000)', // Gradient background
+        color: '#FFFFFF', // White text color for contrast
+      }}>
+
       <BottomNavigation
         showLabels
         value={value}
