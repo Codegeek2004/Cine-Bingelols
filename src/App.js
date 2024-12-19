@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="app">fef</div>
+      <div style={{ marginBottom: '60px' }}> {/* To avoid overlap */}
+        Your content goes here
+      </div>
       <SimpleBottomNavigation />
     </>
   );
